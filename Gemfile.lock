@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-config (0.1.1)
+    rubocop-config (0.1.2)
       rubocop
       rubocop-performance
       rubocop-rails
