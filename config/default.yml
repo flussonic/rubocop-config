@@ -11,11 +11,22 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Layout/EmptyLinesAroundAccessModifier:
+  EnforcedStyle: around
+
+Layout/IndentationConsistency:
+  EnforcedStyle: normal
+
 Layout/LineLength:
   Max: 120
 
 Layout/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines_special
+  Exclude:
+    - 'db/**/*'
 
 Layout/ClassStructure:
   Categories:
@@ -50,15 +61,3 @@ Layout/ClassStructure:
     - private_attribute_macros
     - private_delegate
     - private_methods
-
-Layout/EmptyLinesAroundAccessModifier:
-  Enabled: true
-  EnforcedStyle: around
-
-Layout/IndentationConsistency:
-  Enabled: true
-  EnforcedStyle: normal
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: single_quotes
