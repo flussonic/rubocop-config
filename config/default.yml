@@ -50,3 +50,14 @@ Layout/ClassStructure:
     - private_attribute_macros
     - private_delegate
     - private_methods
+
+Layout/EmptyLinesAroundAccessModifier:
+  Enabled: true
+  EnforcedStyle: around
+
+Layout/IndentationConsistency:
+  Enabled: true
+  EnforcedStyle: normal
+
+Style/StringLiterals:
+  Enabled: true
