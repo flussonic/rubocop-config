@@ -61,3 +61,4 @@ Layout/IndentationConsistency:
 
 Style/StringLiterals:
   Enabled: true
+  EnforcedStyle: single_quotes
